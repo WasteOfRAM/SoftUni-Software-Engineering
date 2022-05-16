@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01. Reverse a String", "P01. Reverse a String\P01. Reverse a String.csproj", "{325E4019-E120-459A-AEFE-2C4048C95B8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01. Reverse a String", "P01. Reverse a String\P01. Reverse a String.csproj", "{325E4019-E120-459A-AEFE-2C4048C95B8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.Stack Sum", "P02.Stack Sum\P02.Stack Sum.csproj", "{FA7C70CE-24B8-41C9-A147-0567341F4E67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{325E4019-E120-459A-AEFE-2C4048C95B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{325E4019-E120-459A-AEFE-2C4048C95B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{325E4019-E120-459A-AEFE-2C4048C95B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7C70CE-24B8-41C9-A147-0567341F4E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7C70CE-24B8-41C9-A147-0567341F4E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7C70CE-24B8-41C9-A147-0567341F4E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7C70CE-24B8-41C9-A147-0567341F4E67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
