@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace P01._Reverse_a_String
 {
@@ -6,7 +7,15 @@ namespace P01._Reverse_a_String
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string input = Console.ReadLine();
+
+            Stack<char> inputStack = new Stack<char>(input);
+            int stackSize = inputStack.Count;
+
+            for (int i = 0; i < stackSize; i++)
+            {
+                Console.Write(inputStack.Pop());
+            }
         }
     }
 }
