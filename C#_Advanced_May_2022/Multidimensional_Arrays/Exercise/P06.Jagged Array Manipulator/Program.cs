@@ -54,6 +54,7 @@ namespace P06.Jagged_Array_Manipulator
                 }
             }
         }
+
         private static void JMatrixFill(int[][] jMatrix)
         {
             for (int row = 0; row < jMatrix.Length; row++)
