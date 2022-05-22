@@ -17,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06.Songs Queue", "P06.Song
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07.Truck Tour", "P07.Truck Tour\P07.Truck Tour.csproj", "{9548142B-9255-49F7-BF9B-0A5BD8569DD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08.Balanced Parenthesis", "P08.Balanced Parenthesis\P08.Balanced Parenthesis.csproj", "{48B09D77-81BE-4749-A3AE-B50563ED057F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P08.Balanced Parenthesis", "P08.Balanced Parenthesis\P08.Balanced Parenthesis.csproj", "{48B09D77-81BE-4749-A3AE-B50563ED057F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09.Simple Text Editor", "P09.Simple Text Editor\P09.Simple Text Editor.csproj", "{A9828383-A6A2-42B1-AB5E-A6092C0001CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P09.Simple Text Editor", "P09.Simple Text Editor\P09.Simple Text Editor.csproj", "{A9828383-A6A2-42B1-AB5E-A6092C0001CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10.Crossroads", "P10.Crossroads\P10.Crossroads.csproj", "{0F1F9423-DBFC-446E-BD72-0B26C93AD7F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P10.Crossroads", "P10.Crossroads\P10.Crossroads.csproj", "{0F1F9423-DBFC-446E-BD72-0B26C93AD7F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11.Key Revolver", "P11.Key Revolver\P11.Key Revolver.csproj", "{71BA03DE-17EA-479D-B132-C1FED0BB3155}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{0F1F9423-DBFC-446E-BD72-0B26C93AD7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F1F9423-DBFC-446E-BD72-0B26C93AD7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F1F9423-DBFC-446E-BD72-0B26C93AD7F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71BA03DE-17EA-479D-B132-C1FED0BB3155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BA03DE-17EA-479D-B132-C1FED0BB3155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BA03DE-17EA-479D-B132-C1FED0BB3155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BA03DE-17EA-479D-B132-C1FED0BB3155}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
