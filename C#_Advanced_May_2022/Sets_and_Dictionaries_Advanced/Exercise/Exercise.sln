@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.Periodic Table", "P03.P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.Even Times", "P04.Even Times\P04.Even Times.csproj", "{067ECE47-B6B5-4100-A671-E32E9C69A06B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.Count Symbols", "P05.Count Symbols\P05.Count Symbols.csproj", "{79A686D1-4223-495D-8DC2-38B66D19EC69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06.Wardrobe", "P06.Wardrobe\P06.Wardrobe.csproj", "{FAF38167-1013-4954-B2F0-7E30E2937F7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{067ECE47-B6B5-4100-A671-E32E9C69A06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{067ECE47-B6B5-4100-A671-E32E9C69A06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{067ECE47-B6B5-4100-A671-E32E9C69A06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79A686D1-4223-495D-8DC2-38B66D19EC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A686D1-4223-495D-8DC2-38B66D19EC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A686D1-4223-495D-8DC2-38B66D19EC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A686D1-4223-495D-8DC2-38B66D19EC69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF38167-1013-4954-B2F0-7E30E2937F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF38167-1013-4954-B2F0-7E30E2937F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF38167-1013-4954-B2F0-7E30E2937F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF38167-1013-4954-B2F0-7E30E2937F7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
