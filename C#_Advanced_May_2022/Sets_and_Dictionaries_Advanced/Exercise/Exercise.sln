@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01.Unique Usernames", "P01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.Sets of Elements", "P02.Sets of Elements\P02.Sets of Elements.csproj", "{B7367A87-7971-4E36-9AC2-2ABF9237C860}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.Periodic Table", "P03.Periodic Table\P03.Periodic Table.csproj", "{BDDB2858-FD35-4ADE-8DB8-5940FE4D7C11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.Even Times", "P04.Even Times\P04.Even Times.csproj", "{067ECE47-B6B5-4100-A671-E32E9C69A06B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{B7367A87-7971-4E36-9AC2-2ABF9237C860}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7367A87-7971-4E36-9AC2-2ABF9237C860}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7367A87-7971-4E36-9AC2-2ABF9237C860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDB2858-FD35-4ADE-8DB8-5940FE4D7C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDB2858-FD35-4ADE-8DB8-5940FE4D7C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDB2858-FD35-4ADE-8DB8-5940FE4D7C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDB2858-FD35-4ADE-8DB8-5940FE4D7C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{067ECE47-B6B5-4100-A671-E32E9C69A06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067ECE47-B6B5-4100-A671-E32E9C69A06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067ECE47-B6B5-4100-A671-E32E9C69A06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067ECE47-B6B5-4100-A671-E32E9C69A06B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
