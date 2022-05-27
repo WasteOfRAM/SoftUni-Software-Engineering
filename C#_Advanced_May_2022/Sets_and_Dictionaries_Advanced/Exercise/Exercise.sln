@@ -15,11 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05.Count Symbols", "P05.Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06.Wardrobe", "P06.Wardrobe\P06.Wardrobe.csproj", "{FAF38167-1013-4954-B2F0-7E30E2937F7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07.The V-Logger", "P07.The V-Logger\P07.The V-Logger.csproj", "{7A0C7D3A-AEE9-4352-808A-61D2C396A059}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07.The V-Logger", "P07.The V-Logger\P07.The V-Logger.csproj", "{7A0C7D3A-AEE9-4352-808A-61D2C396A059}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08.Ranking", "P08.Ranking\P08.Ranking.csproj", "{E1EE1681-A1B2-4E05-8FA4-20E31A9A8C40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P08.Ranking", "P08.Ranking\P08.Ranking.csproj", "{E1EE1681-A1B2-4E05-8FA4-20E31A9A8C40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09.SoftUni Exam Results", "P09.SoftUni Exam Results\P09.SoftUni Exam Results.csproj", "{E37A521F-8705-4FCA-81B5-C5DB72FB0B2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P09.SoftUni Exam Results", "P09.SoftUni Exam Results\P09.SoftUni Exam Results.csproj", "{E37A521F-8705-4FCA-81B5-C5DB72FB0B2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10.ForceBook", "P10.ForceBook\P10.ForceBook.csproj", "{ED40FE69-25AC-4A60-970F-79AE542E5C1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{E37A521F-8705-4FCA-81B5-C5DB72FB0B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E37A521F-8705-4FCA-81B5-C5DB72FB0B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E37A521F-8705-4FCA-81B5-C5DB72FB0B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED40FE69-25AC-4A60-970F-79AE542E5C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED40FE69-25AC-4A60-970F-79AE542E5C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED40FE69-25AC-4A60-970F-79AE542E5C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED40FE69-25AC-4A60-970F-79AE542E5C1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
