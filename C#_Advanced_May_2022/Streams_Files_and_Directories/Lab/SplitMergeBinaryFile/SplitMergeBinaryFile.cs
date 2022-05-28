@@ -19,10 +19,35 @@
 
         public static void SplitBinaryFile(string sourceFilePath, string partOneFilePath, string partTwoFilePath)
         {
+            using FileStream stream = File.OpenRead(sourceFilePath);
+            long partOneLenght = (long)decimal.Ceiling((decimal)stream.Length / 2);
+            long partTwoLenght = (long)decimal.Floor((decimal)stream.Length / 2);
+
+            byte[] partOneBytes = new byte[partOneLenght];
+            byte[] partTwoBytes = new byte[partTwoLenght];
+
+            stream.Read(partOneBytes, 0, partOneBytes.Length);
+            stream.Read(partTwoBytes, 0, partTwoBytes.Length);
+
+            using FileStream partOneWriter = File.Create(partOneFilePath), partTwoWriter = File.Create(partTwoFilePath);
+
+            partOneWriter.Write(partOneBytes, 0, partOneBytes.Length);
+            partTwoWriter.Write(partTwoBytes, 0, partTwoBytes.Length);
         }
 
         public static void MergeBinaryFiles(string partOneFilePath, string partTwoFilePath, string joinedFilePath)
         {
+            using FileStream partOne = File.OpenRead(partOneFilePath), partTwo = File.OpenRead(partTwoFilePath);
+            byte[] partOneBytes = new byte[partOne.Length];
+            byte[] partTwoBytes = new byte[partTwo.Length];
+
+            partOne.Read(partOneBytes, 0, partOneBytes.Length);
+            partTwo.Read(partTwoBytes, 0, partTwoBytes.Length);
+
+            byte[] mergedBytes = partOneBytes.Concat(partTwoBytes).ToArray();
+
+            using FileStream joinWriter = File.Create(joinedFilePath);
+            joinWriter.Write(mergedBytes, 0, mergedBytes.Length);
         }
     }
 }
