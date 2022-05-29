@@ -1,6 +1,8 @@
 ﻿namespace CopyDirectory
 {
     using System;
+    using System.IO;
+
     public class CopyDirectory
     {
         static void Main()
@@ -13,7 +15,21 @@
 
         public static void CopyAllFiles(string inputPath, string outputPath)
         {
-            throw new NotImplementedException();
+            DirectoryInfo inputDir = new DirectoryInfo(inputPath);
+
+            string[] files = Directory.GetFiles(inputPath);
+
+            if(Directory.Exists(outputPath))
+                Directory.Delete(outputPath, true);
+
+            DirectoryInfo outputDir = Directory.CreateDirectory(outputPath);
+
+            foreach (var file in files)
+            {
+                string fileName = Path.GetFileName(file);
+                string distPath = Path.Combine(outputPath, fileName);
+                File.Copy(file, distPath, true);
+            }
         }
     }
 }
