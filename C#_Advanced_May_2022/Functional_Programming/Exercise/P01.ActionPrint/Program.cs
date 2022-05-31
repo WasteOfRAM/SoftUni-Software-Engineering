@@ -6,7 +6,11 @@ namespace P01.ActionPrint
     {
         static void Main()
         {
+            string[] names = Console.ReadLine().Split();
+
+            Action<string> printNames = name => Console.WriteLine(name);
             
+            Array.ForEach(names, printNames);
         }
     }
 }

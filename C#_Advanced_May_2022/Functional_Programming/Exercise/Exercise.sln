@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.ActionPrint", "P01.ActionPrint\P01.ActionPrint.csproj", "{01F71A17-59C1-4BB2-ABFB-73D662EE39DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01.ActionPrint", "P01.ActionPrint\P01.ActionPrint.csproj", "{01F71A17-59C1-4BB2-ABFB-73D662EE39DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.Knights of Honor", "P02.Knights of Honor\P02.Knights of Honor.csproj", "{2B5F0250-2BE7-4ABD-A850-053ACD0C7333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.Custom Min Function", "P03.Custom Min Function\P03.Custom Min Function.csproj", "{29653F31-F404-40A7-A050-4E0C14CEB771}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{01F71A17-59C1-4BB2-ABFB-73D662EE39DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01F71A17-59C1-4BB2-ABFB-73D662EE39DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01F71A17-59C1-4BB2-ABFB-73D662EE39DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B5F0250-2BE7-4ABD-A850-053ACD0C7333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5F0250-2BE7-4ABD-A850-053ACD0C7333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5F0250-2BE7-4ABD-A850-053ACD0C7333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5F0250-2BE7-4ABD-A850-053ACD0C7333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29653F31-F404-40A7-A050-4E0C14CEB771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29653F31-F404-40A7-A050-4E0C14CEB771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29653F31-F404-40A7-A050-4E0C14CEB771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29653F31-F404-40A7-A050-4E0C14CEB771}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
