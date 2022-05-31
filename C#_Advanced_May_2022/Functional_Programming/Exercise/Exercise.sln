@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08.List Of Predicates", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09.Predicate Party!", "P09.Predicate Party!\P09.Predicate Party!.csproj", "{88618ABA-6121-4F0C-8F98-526AF2F648B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10.The Party Reservation Filter Module", "P10.The Party Reservation Filter Module\P10.The Party Reservation Filter Module.csproj", "{3D6DCCA3-05AE-4224-B957-556CD1F3EDB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{88618ABA-6121-4F0C-8F98-526AF2F648B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88618ABA-6121-4F0C-8F98-526AF2F648B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88618ABA-6121-4F0C-8F98-526AF2F648B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6DCCA3-05AE-4224-B957-556CD1F3EDB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6DCCA3-05AE-4224-B957-556CD1F3EDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6DCCA3-05AE-4224-B957-556CD1F3EDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6DCCA3-05AE-4224-B957-556CD1F3EDB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
