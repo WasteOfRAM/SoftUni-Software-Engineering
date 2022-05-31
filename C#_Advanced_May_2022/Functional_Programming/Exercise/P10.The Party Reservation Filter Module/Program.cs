@@ -10,42 +10,47 @@ namespace P10.The_Party_Reservation_Filter_Module
         {
             List<string> guestList = Console.ReadLine().Split(" ").ToList();
 
+            List<KeyValuePair<string, string>> list = new List<KeyValuePair<string, string>>();
 
             string input;
             while ((input = Console.ReadLine()) != "Print")
             {
                 string command = input.Split(' ')[0];
-                string criteria = input.Split(' ')[1];
-                string arg = input.Split(' ')[2];
+                string criteria = input.Split(';')[1];
+                string arg = input.Split(';')[2];
 
-                Predicate<string> predicate = GetPredicate(input);
+                
+
 
                 if (command == "Add")
                 {
-
-
+                    list.Add(new KeyValuePair<string, string>(criteria, arg));
                 }
                 else if (command == "Remove")
                 {
-                    guestList.RemoveAll(predicate);
+                    list.Remove(new KeyValuePair<string, string>(criteria, arg));
                 }
             }
 
-            if (guestList.Count > 0)
-                Console.WriteLine(string.Join(", ", guestList) + " are going to the party!");
-            else
-                Console.WriteLine("Nobody is going to the party!");
+            foreach (KeyValuePair<string, string> kvp in list)
+            {
+                Predicate<string> predicate = GetPredicate(kvp);
+
+                guestList.RemoveAll(predicate);
+            }
+
+            Console.WriteLine(string.Join(" ", guestList));
         }
 
-        private static Predicate<string> GetPredicate(string input)
+        private static Predicate<string> GetPredicate(KeyValuePair<string, string> input)
         {
             Predicate<string> predicate = null;
-            string criteria = input.Split(' ')[1];
-            string arg = input.Split(' ')[2];
+            string criteria = input.Key;
+            string arg = input.Value;
 
-            if (criteria == "Starts With")
+            if (criteria == "Starts with")
                 predicate = name => name.StartsWith(arg);
-            else if (criteria == "Ends With")
+            else if (criteria == "Ends with")
                 predicate = name => name.EndsWith(arg);
             else if (criteria == "Length")
                 predicate = name => name.Length == int.Parse(arg);
