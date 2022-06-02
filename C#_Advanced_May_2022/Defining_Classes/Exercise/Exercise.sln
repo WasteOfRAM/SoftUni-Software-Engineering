@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.Opinion_Poll", "P04.Opi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.Date_Modifier", "P05.Date_Modifier\P05.Date_Modifier.csproj", "{68C14FE1-F321-43A2-80F6-A29BB42127B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06.Speed_Racing", "P06.Speed_Racing\P06.Speed_Racing.csproj", "{3AC0AC03-91CB-462A-94C4-A5158A179E9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07.Raw_Data", "P07.Raw_Data\P07.Raw_Data.csproj", "{D7859B47-591B-479F-8DBE-8F34410805E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{68C14FE1-F321-43A2-80F6-A29BB42127B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68C14FE1-F321-43A2-80F6-A29BB42127B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68C14FE1-F321-43A2-80F6-A29BB42127B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC0AC03-91CB-462A-94C4-A5158A179E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC0AC03-91CB-462A-94C4-A5158A179E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC0AC03-91CB-462A-94C4-A5158A179E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC0AC03-91CB-462A-94C4-A5158A179E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7859B47-591B-479F-8DBE-8F34410805E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7859B47-591B-479F-8DBE-8F34410805E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7859B47-591B-479F-8DBE-8F34410805E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7859B47-591B-479F-8DBE-8F34410805E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
