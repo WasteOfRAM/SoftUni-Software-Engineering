@@ -12,10 +12,10 @@ namespace DefiningClasses
             for (int i = 0; i < n; i++)
             {
                 string input = Console.ReadLine();
-                string name = input.Split()[0];
-                int age = int.Parse(input.Split()[1]);
+                string name = input.Split(" ", StringSplitOptions.RemoveEmptyEntries)[0];
+                int age = int.Parse(input.Split(" ", StringSplitOptions.RemoveEmptyEntries)[1]);
 
-                family.AddMember(name, age);
+                family.AddMember(new Person(name, age));
             }
 
             Person oldestPeron = family.GetOldestMember();
