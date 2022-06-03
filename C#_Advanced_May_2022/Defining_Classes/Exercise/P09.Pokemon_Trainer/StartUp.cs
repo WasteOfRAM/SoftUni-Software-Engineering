@@ -55,7 +55,7 @@ namespace DefiningClasses
                 {
                     trainer.Pokemons.ForEach(p => p.Health -= 10);
 
-                    trainer.Pokemons = trainer.Pokemons.Where(p => p.Health > 0).ToList();
+                    trainer.Pokemons.RemoveAll(p => p.Health > 0);
                 }
             }
         }
