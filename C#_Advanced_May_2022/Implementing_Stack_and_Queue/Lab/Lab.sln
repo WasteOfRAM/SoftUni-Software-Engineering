@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create_Custom_Data_Structures", "Create_Custom_Data_Structures\Create_Custom_Data_Structures.csproj", "{B8A1DA4B-EB77-4F20-915F-C7D4D382F651}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8A1DA4B-EB77-4F20-915F-C7D4D382F651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A1DA4B-EB77-4F20-915F-C7D4D382F651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A1DA4B-EB77-4F20-915F-C7D4D382F651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A1DA4B-EB77-4F20-915F-C7D4D382F651}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B260D37C-E4DD-4E52-82FE-E41D3B9888E7}
+	EndGlobalSection
+EndGlobal
