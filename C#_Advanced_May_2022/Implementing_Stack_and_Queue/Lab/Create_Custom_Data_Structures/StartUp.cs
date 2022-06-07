@@ -1,16 +1,16 @@
 ﻿using Create_Custom_Data_Structures;
 
-var stack = new CustomStack();
+var queue = new CustomQueue();
 
-stack.Push(1);
-stack.Push(2);
-stack.Push(3);
-stack.Push(4);
-stack.Push(5);
+queue.Enqueue(1);
+queue.Enqueue(2);
+queue.Enqueue(3);
+queue.Enqueue(4);
+queue.Enqueue(5);
 
-stack.Pop();
-stack.Pop();
+int test = queue.Dequeue();
+queue.Dequeue();
+queue.Dequeue();
+queue.Dequeue();
 
-Console.WriteLine(stack.Peek());
-
-stack.ForEach(x => Console.WriteLine(x));
+Console.WriteLine(test);
