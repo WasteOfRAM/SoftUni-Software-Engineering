@@ -59,7 +59,7 @@ namespace Create_Custom_Data_Structures
         public int RemoveAt(int index)
         {
             ValidatingIndex(index);
-            var element = this.data[index];
+            int element = this.data[index];
             this.data[index] = default(int);
             Shift(index);
             this.Count--;
@@ -89,6 +89,20 @@ namespace Create_Custom_Data_Structures
             int firstElemValue = this.data[firstIndex];
             this.data[firstIndex] = this.data[secondIndex];
             this.data[secondIndex] = firstElemValue;
+        }
+
+        public void Clear()
+        {
+            this.Count = 0;
+            this.data = new int[INITIAL_CAPACITY];
+        }
+
+        public void ForEach(Action<int> action)
+        {
+            for (int i = 0; i < this.Count; i++)
+            {
+                action(this.data[i]);
+            }
         }
 
         private void Shift(int index)
