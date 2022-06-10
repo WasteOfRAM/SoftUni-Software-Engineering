@@ -3,11 +3,11 @@ using System;
 
 namespace P05_06.Generic_Count_Method
 {
-    public class Box<T> : IComparable<T>
+    public class Box<T> : IComparable<T> where T : IComparable<T>
     {
-        private IComparable<T> value;
+        private T value;
 
-        public Box(IComparable<T> value)
+        public Box(T value)
         {
             this.value = value;
         }
