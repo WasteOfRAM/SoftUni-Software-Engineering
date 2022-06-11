@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.Scheduling", "P01.Scheduling\P01.Scheduling.csproj", "{7B5C0597-FA3A-47B5-ABE4-5B4F945E3FBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.Garden", "P02.Garden\P02.Garden.csproj", "{AECF5EEA-988A-410A-ACC7-0DBF1A5CD3DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassroomProject", "P03.Classroom\ClassroomProject.csproj", "{C007720A-BD66-4561-B0C2-B939A178C80A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7B5C0597-FA3A-47B5-ABE4-5B4F945E3FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B5C0597-FA3A-47B5-ABE4-5B4F945E3FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B5C0597-FA3A-47B5-ABE4-5B4F945E3FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AECF5EEA-988A-410A-ACC7-0DBF1A5CD3DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AECF5EEA-988A-410A-ACC7-0DBF1A5CD3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AECF5EEA-988A-410A-ACC7-0DBF1A5CD3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AECF5EEA-988A-410A-ACC7-0DBF1A5CD3DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C007720A-BD66-4561-B0C2-B939A178C80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C007720A-BD66-4561-B0C2-B939A178C80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C007720A-BD66-4561-B0C2-B939A178C80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C007720A-BD66-4561-B0C2-B939A178C80A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
