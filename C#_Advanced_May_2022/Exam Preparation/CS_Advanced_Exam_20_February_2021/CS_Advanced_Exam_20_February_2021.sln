@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.The_Fight_for_Gondor", "P01.The_Fight_for_Gondor\P01.The_Fight_for_Gondor.csproj", "{DE3F3CDF-621A-43E5-BCF1-DF74A9101DF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.Warships", "P02.Warships\P02.Warships.csproj", "{B030885A-5C43-498B-8F45-75AA7AC880D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DE3F3CDF-621A-43E5-BCF1-DF74A9101DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE3F3CDF-621A-43E5-BCF1-DF74A9101DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE3F3CDF-621A-43E5-BCF1-DF74A9101DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B030885A-5C43-498B-8F45-75AA7AC880D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B030885A-5C43-498B-8F45-75AA7AC880D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B030885A-5C43-498B-8F45-75AA7AC880D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B030885A-5C43-498B-8F45-75AA7AC880D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
