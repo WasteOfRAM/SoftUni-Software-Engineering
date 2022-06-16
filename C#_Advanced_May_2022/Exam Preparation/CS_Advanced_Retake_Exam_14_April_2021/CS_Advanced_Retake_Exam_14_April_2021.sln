@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.Warm_Winter", "P01.Warm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.Super_Mario", "P02.Super_Mario\P02.Super_Mario.csproj", "{62A7A711-3A87-4D52-8E32-88F8259259CF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CocktailParty", "P03.Cocktail_Party\CocktailParty.csproj", "{B194B815-1C74-4FD5-9D29-8950C8C83CCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{62A7A711-3A87-4D52-8E32-88F8259259CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62A7A711-3A87-4D52-8E32-88F8259259CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62A7A711-3A87-4D52-8E32-88F8259259CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B194B815-1C74-4FD5-9D29-8950C8C83CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B194B815-1C74-4FD5-9D29-8950C8C83CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B194B815-1C74-4FD5-9D29-8950C8C83CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B194B815-1C74-4FD5-9D29-8950C8C83CCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
