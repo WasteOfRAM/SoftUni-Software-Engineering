@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.Lootbox", "P01.Lootbox\P01.Lootbox.csproj", "{0779E87F-EE0B-492F-B619-2E1A253563FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.Re-Volt", "P02.Re-Volt\P02.Re-Volt.csproj", "{2DD39585-924C-4B92-9C0F-DB791D0355EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0779E87F-EE0B-492F-B619-2E1A253563FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0779E87F-EE0B-492F-B619-2E1A253563FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0779E87F-EE0B-492F-B619-2E1A253563FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD39585-924C-4B92-9C0F-DB791D0355EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD39585-924C-4B92-9C0F-DB791D0355EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD39585-924C-4B92-9C0F-DB791D0355EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD39585-924C-4B92-9C0F-DB791D0355EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
