@@ -10,3 +10,4 @@ Needs a registration to view.
 [C# Advanced Retake Exam - 14 April 2021](https://judge.softuni.org/Contests/2824/CSharp-Advanced-Retake-Exam-14-April-2021)  
 [C# Advanced Exam - 22 Feb 2020](https://judge.softuni.org/Contests/2032/CSharp-Advanced-Exam-22-Feb-2020)  
 [C# Advanced Exam - 26 June 2021](https://judge.softuni.org/Contests/3020/CSharp-Advanced-Exam-26-June-2021)  
+[C# Advanced Retake Exam - 18 August 2021](https://judge.softuni.org/Contests/3088/CSharp-Advanced-Retake-Exam-18-August-2021)  
