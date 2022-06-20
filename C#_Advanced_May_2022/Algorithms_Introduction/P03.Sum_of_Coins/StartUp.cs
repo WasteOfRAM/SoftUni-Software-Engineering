@@ -7,7 +7,7 @@ namespace SumOfCoins
 
     public class StartUp
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             var availableCoins = Console.ReadLine().Split(", ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
             var targetSum = int.Parse(Console.ReadLine());
@@ -47,8 +47,6 @@ namespace SumOfCoins
 
                 if (targetSum == 0)
                     break;
-
-                
             }
 
             return result;
