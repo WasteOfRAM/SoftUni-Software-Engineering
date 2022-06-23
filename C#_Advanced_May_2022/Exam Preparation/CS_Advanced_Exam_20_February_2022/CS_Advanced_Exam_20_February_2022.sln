@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.Bakery_Shop", "P01.Bake
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.Beaver_at_Work", "P02.Beaver_at_Work\P02.Beaver_at_Work.csproj", "{40A02425-05B6-4780-89E6-63A668EFC9A6}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03.Fishing_Net", "P03.Fishing_Net\P03.Fishing_Net.csproj", "{56BC6D95-56D3-41EC-BFB9-29EF73722CC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{40A02425-05B6-4780-89E6-63A668EFC9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40A02425-05B6-4780-89E6-63A668EFC9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40A02425-05B6-4780-89E6-63A668EFC9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56BC6D95-56D3-41EC-BFB9-29EF73722CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BC6D95-56D3-41EC-BFB9-29EF73722CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BC6D95-56D3-41EC-BFB9-29EF73722CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BC6D95-56D3-41EC-BFB9-29EF73722CC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
