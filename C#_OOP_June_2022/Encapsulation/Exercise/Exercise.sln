@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.Class_Box_Data", "P01.Class_Box_Data\P01.Class_Box_Data.csproj", "{4F42E576-0417-4A01-8F34-F11F4417BFAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01.Class_Box_Data", "P01.Class_Box_Data\P01.Class_Box_Data.csproj", "{4F42E576-0417-4A01-8F34-F11F4417BFAE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02.Animal_Farm", "P02.Animal_Farm\P02.Animal_Farm.csproj", "{204E4F3C-EAAA-4309-84BA-877686AD8D57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.Shopping_Spree", "P03.Shopping_Spree\P03.Shopping_Spree.csproj", "{4D5AB098-14C0-4FB0-B061-2106924ECF42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{204E4F3C-EAAA-4309-84BA-877686AD8D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{204E4F3C-EAAA-4309-84BA-877686AD8D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{204E4F3C-EAAA-4309-84BA-877686AD8D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5AB098-14C0-4FB0-B061-2106924ECF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5AB098-14C0-4FB0-B061-2106924ECF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5AB098-14C0-4FB0-B061-2106924ECF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5AB098-14C0-4FB0-B061-2106924ECF42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
