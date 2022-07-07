@@ -31,9 +31,9 @@ namespace P04.Border_Control
 
             var fakeIdsList = inhabitantsList.Where(inhabitant => inhabitant.FakeIdCheck(fakeIdIdentifier)).ToList();
 
-            foreach (var id in fakeIdsList)
+            foreach (var inhabitant in fakeIdsList)
             {
-                Console.WriteLine(id.Id);
+                Console.WriteLine(inhabitant.Id);
             }
         }
     }
