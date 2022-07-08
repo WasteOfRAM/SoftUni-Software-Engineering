@@ -3,6 +3,5 @@
     public interface IIdentifiable
     {
         public string Id { get; }
-        bool FakeIdCheck(string number);
     }
 }

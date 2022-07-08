@@ -29,7 +29,7 @@ namespace P04.Border_Control
 
             //var fakeIdsList = inhabitantsList.Where(inhabitant => inhabitant.FakeIdCheck(fakeIdIdentifier)).Select(id => id.Id).ToList();
 
-            var fakeIdsList = inhabitantsList.Where(inhabitant => inhabitant.FakeIdCheck(fakeIdIdentifier)).ToList();
+            var fakeIdsList = inhabitantsList.Where(inhabitant => inhabitant.Id.EndsWith(fakeIdIdentifier)).ToList();
 
             foreach (var inhabitant in fakeIdsList)
             {
