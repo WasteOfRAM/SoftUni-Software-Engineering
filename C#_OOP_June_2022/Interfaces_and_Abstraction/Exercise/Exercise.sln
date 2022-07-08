@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.Define_an_Interface_IPerson", "P01.Define_an_Interface_IPerson\P01.Define_an_Interface_IPerson.csproj", "{0E5C936D-1D23-432C-A202-C1509B491657}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01.Define_an_Interface_IPerson", "P01.Define_an_Interface_IPerson\P01.Define_an_Interface_IPerson.csproj", "{0E5C936D-1D23-432C-A202-C1509B491657}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.Multiple_Implementation", "P02.Multiple_Implementation\P02.Multiple_Implementation.csproj", "{436D6E36-05FB-41EE-BA61-0117F83DB953}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02.Multiple_Implementation", "P02.Multiple_Implementation\P02.Multiple_Implementation.csproj", "{436D6E36-05FB-41EE-BA61-0117F83DB953}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.Telephony", "P03.Telephony\P03.Telephony.csproj", "{EC22226E-8D82-4ACE-AD21-5AB1866B6978}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03.Telephony", "P03.Telephony\P03.Telephony.csproj", "{EC22226E-8D82-4ACE-AD21-5AB1866B6978}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.Border_Control", "P04.Border_Control\P04.Border_Control.csproj", "{C9895B1D-25B8-431D-A779-4E75ED04106F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04.Border_Control", "P04.Border_Control\P04.Border_Control.csproj", "{C9895B1D-25B8-431D-A779-4E75ED04106F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.Birthday_Celebrations", "P05.Birthday_Celebrations\P05.Birthday_Celebrations.csproj", "{68A05088-5A68-4BE4-9B0E-7F21A2F63BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06.Food_Shortage", "P06.Food_Shortage\P06.Food_Shortage.csproj", "{387C3CCB-7D33-4A48-B1B9-0F9D428A802E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{C9895B1D-25B8-431D-A779-4E75ED04106F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9895B1D-25B8-431D-A779-4E75ED04106F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9895B1D-25B8-431D-A779-4E75ED04106F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A05088-5A68-4BE4-9B0E-7F21A2F63BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A05088-5A68-4BE4-9B0E-7F21A2F63BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A05088-5A68-4BE4-9B0E-7F21A2F63BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A05088-5A68-4BE4-9B0E-7F21A2F63BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387C3CCB-7D33-4A48-B1B9-0F9D428A802E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387C3CCB-7D33-4A48-B1B9-0F9D428A802E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387C3CCB-7D33-4A48-B1B9-0F9D428A802E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387C3CCB-7D33-4A48-B1B9-0F9D428A802E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
