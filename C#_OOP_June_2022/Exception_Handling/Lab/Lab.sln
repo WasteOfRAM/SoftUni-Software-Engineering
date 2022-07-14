@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.Square_Root", "P01.Squa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.Enter_Numbers", "P02.Enter_Numbers\P02.Enter_Numbers.csproj", "{DA343B46-701A-485D-905D-11C7FFE379D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.Cards", "P03.Cards\P03.Cards.csproj", "{9DAF9760-3161-44A3-B0A3-120199314ECB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DA343B46-701A-485D-905D-11C7FFE379D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA343B46-701A-485D-905D-11C7FFE379D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA343B46-701A-485D-905D-11C7FFE379D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DAF9760-3161-44A3-B0A3-120199314ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DAF9760-3161-44A3-B0A3-120199314ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DAF9760-3161-44A3-B0A3-120199314ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DAF9760-3161-44A3-B0A3-120199314ECB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
