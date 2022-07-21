@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.High_Quality_Mistakes",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.Mission_Private_Impossible", "P03.Mission_Private_Impossible\P03.Mission_Private_Impossible.csproj", "{AA846AA9-5ED6-4983-81E8-765DFE824B6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.Collector", "P04.Collector\P04.Collector.csproj", "{847DAEFF-F96D-4DAA-B2C0-6F92244CFF78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AA846AA9-5ED6-4983-81E8-765DFE824B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA846AA9-5ED6-4983-81E8-765DFE824B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA846AA9-5ED6-4983-81E8-765DFE824B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847DAEFF-F96D-4DAA-B2C0-6F92244CFF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847DAEFF-F96D-4DAA-B2C0-6F92244CFF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847DAEFF-F96D-4DAA-B2C0-6F92244CFF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847DAEFF-F96D-4DAA-B2C0-6F92244CFF78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
