@@ -1,0 +1,20 @@
+﻿using Easter.Models.Dyes.Contracts;
+using System.Collections.Generic;
+
+namespace Easter.Models.Bunnies
+{
+    public class HappyBunny : Bunny
+    {
+        private const int InitialEnergy = 100;
+
+        public HappyBunny(string name) 
+            : base(name, InitialEnergy, new List<IDye>())
+        {
+        }
+
+        public override void Work()
+        {
+            this.Energy -= 10;
+        }
+    }
+}
