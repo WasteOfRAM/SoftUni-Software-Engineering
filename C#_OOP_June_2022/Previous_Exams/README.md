@@ -8,3 +8,4 @@ Needs a registration to view.
 [C# OOP Exam - 11 December 2021](https://judge.softuni.org/Contests/3257/CSharp-OOP-Exam-11-December-2021)  
 [C# OOP Retake Exam - 22 August 2021](https://judge.softuni.org/Contests/3099/CSharp-OOP-Retake-Exam-22-August-2021)  
 [C# OOP Exam - 15 August 2021](https://judge.softuni.org/Contests/3091/CSharp-OOP-Exam-15-August-2021)  
+[C# OOP Retake Exam - 18 April 2021](https://judge.softuni.org/Contests/2857/CSharp-OOP-Retake-Exam-18-April-2021)  
