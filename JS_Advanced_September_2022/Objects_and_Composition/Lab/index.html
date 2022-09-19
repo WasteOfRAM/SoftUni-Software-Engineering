@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FromJSONToHTMLTable</title>
+    <style>
+        table,
+        th {
+            border: groove;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+        }
+
+        td,
+        th {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+    </div>
+    <script>
+        function fromJSONToHTMLTable(jsonString) {
+            let objArray = JSON.parse(jsonString);
+            let tableColumnNames = Object.keys(objArray[0]);
+            let result = `<table>\n`;
+
+            result += `    <tr>`;
+            for (const columnName of tableColumnNames) {
+                result += `<th>${columnName}</th>`;
+            }
+            result += '</tr>\n';
+
+            let values = objArray.map(obj => Object.values(obj));
+
+            for (const value of values) {
+                result += `    <tr>`;
+                for (const v of value) {
+                    result += `<td>${v}</td>`;
+                }
+                result += '</tr>\n';
+            }
+
+            result += `</table>`;
+
+            result.replace('<', "&lt;")
+                .replace('>', "&gt;")
+                .replace('"', "&quot;")
+                .replace("'", "&#39;")
+                .replace('&', "&amp;")
+                .replace("/", "&#x2F;");
+
+            return result;
+        }
+        window.onload = function () {
+            let container = document.getElementById('wrapper');
+            container.innerHTML = fromJSONToHTMLTable([`[{"Name":"Pesho",
+"Score":4,
+"Grade":8},
+{"Name":"Gosho",
+"Score":5,
+"Grade":8},
+{"Name":"Angel",
+"Score":5.50,
+"Grade":10}]`]);
+        };
+    </script>
+</body>
+
+</html>
