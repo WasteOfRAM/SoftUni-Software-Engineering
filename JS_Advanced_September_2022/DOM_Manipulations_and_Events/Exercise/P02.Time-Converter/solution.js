@@ -3,8 +3,6 @@ function attachEventsListeners() {
 
     main.addEventListener('click', convert);
 
-    
-
     function convert(e) {
         if (e.target.value !== 'Convert') {
             return;
