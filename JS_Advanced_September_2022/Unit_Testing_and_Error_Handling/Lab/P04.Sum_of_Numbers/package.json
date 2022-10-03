@@ -1,0 +1,18 @@
+{
+  "name": "p04.sum_of_numbers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sumNumbers.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}

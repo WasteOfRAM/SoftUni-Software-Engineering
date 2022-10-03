@@ -1,0 +1,15 @@
+{
+  "name": "p06.rgb_to_hex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rgb-to-hex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
