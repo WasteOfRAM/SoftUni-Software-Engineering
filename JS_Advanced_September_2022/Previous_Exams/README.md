@@ -7,3 +7,4 @@ Needs a registration to view.
 [Js Advanced Final Exam - 19 February 2022](https://judge.softuni.org/Contests/3367/Js-Advanced-Final-Exam-19-February-2022)  
 [Js Advanced Final Retake Exam - 10 December 2021](https://judge.softuni.org/Contests/3296/Js-Advanced-Final-Retake-Exam-10-December-2021)  
 [JS Advanced Final Exam - 23 October 2021](https://judge.softuni.org/Contests/3235/JS-Advanced-Final-Exam-23-October-2021)  
+[JS Advanced Final Retake Exam - 12 August 2021](https://judge.softuni.org/Contests/Practice/Index/3089)  
