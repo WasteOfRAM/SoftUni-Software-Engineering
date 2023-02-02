@@ -1,4 +1,4 @@
---Part I – Queries for Gringotts Database
+--Part I ï¿½ Queries for Gringotts Database
 
 USE Gringotts
 GO
@@ -123,10 +123,11 @@ SELECT
       (
 	    SELECT
 	           DepositAmount - LEAD(DepositAmount) OVER (ORDER BY Id) AS DepositDifference
-          FROM WizzardDeposits) AS DepositAmountDifference;
+          FROM WizzardDeposits
+	  ) AS DepositAmountDifference;
+	  
 
-
---Part II – Queries for SoftUni Database
+--Part II ï¿½ Queries for SoftUni Database
 
 USE SoftUni;
 GO
